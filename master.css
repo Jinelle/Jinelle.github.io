@@ -1,0 +1,260 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: small;
+    background-color: #5c2c04;
+}
+
+div#wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    position: relative;
+}
+
+div#header {
+    
+    overflow: hidden;
+    
+}
+
+
+div#header h1 {
+    margin: 0;
+    overflow: hidden;
+}
+
+div#header h1 span#title {
+    display: none;   
+}
+
+div#header img#prettypicture {
+    
+}
+
+div#navigation {
+    position: absolute;
+    top: 100px;
+    padding-left: 0.5em;
+}
+
+div#navigation ul {
+    padding: 0;
+}
+
+div#navigation li {
+    display: inline;
+    padding: 5px 15px;
+    background-image: url(images/woodbuttons.jpg);
+    background-position: bottom;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+}
+
+div#navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+ 
+div#navigation li.active a {
+    font-weight: bold;
+    
+    
+}
+
+
+div#content {
+    margin: 2em;
+    overflow: hidden;
+}
+
+div#content h2 {
+    font-size: 200%;
+}
+
+div#content h5 {
+    font-size: 110%;
+    margin-bottom: 0.5em;
+    
+}
+
+div#content h4 {
+    font-size: 120%;
+    margin-bottom: 0.5em;
+    
+}
+
+
+
+div#tanzania h3 {
+    text-decoration:underline;
+    font-size: 150%;
+    
+}
+
+div#uganda h3 {
+    text-decoration:underline;
+    font-size:150%;
+    
+}
+
+div#kenya h3 {
+    text-decoration:underline;
+    font-size: 150%;
+    
+}
+    
+span.astrix {
+    color:red;
+}
+
+
+
+div#content #contact {
+    float: right;
+    border: 3px solid grey;
+    background-color: lightgrey;
+    margin-left: 20px;
+    padding: 10px;
+    width: 40%;
+    
+}
+
+div#contact h2{
+    margin-top:0;
+}
+
+div#contactinformation {
+    background-color:lightgrey;
+    padding: 20px;
+    border: 3px solid grey;
+    
+}
+
+div#table {
+    border: 3px solid grey;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding: 10px;
+    width: 60%;
+}
+
+div#table caption {
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+          
+table td, 
+table th {
+    border: 2px solid black;
+    padding: 5px;
+            
+}
+ 
+div#testimonials { 
+    border: 3px solid grey;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    
+}
+
+div#testimonials img {
+    float: left;
+    margin-right: 5px;
+}
+
+div#travelguides {
+   
+    border: 3px solid grey;
+    background-color: lightgrey;
+    float: right;
+    width: 40%;
+    padding: 5px;
+    margin:10px;
+}
+
+
+
+
+div#sam {
+    border: 3px solid grey;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 10px;
+    
+
+}
+
+div#donna {
+    border: 3px solid grey;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 10px
+
+}
+
+div#steve {
+    border: 3px solid grey;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 10px
+
+}
+
+div.galleryphotos {
+    float: left;
+    border: 3px;
+    padding: 10px;
+    margin:5px
+    
+}
+
+
+div#phonenumber {
+    
+    position: absolute;
+    right: 0.5em;
+    top: 80px;
+    padding: 0.5em;
+    color: #fff;
+    font-size: 120%;
+}
+    
+
+
+
+div#footer {
+    border-top: 3px solid grey;
+    margin: 2em;
+    font-style:italic;
+    font-size: 85%
+}
+
+ 
+@media print {
+    
+    body {
+        background-color:#fff;
+        font-size: 12px;
+        
+    }
+    
+    div#wrapper {
+        max-width:none;
+    }
+    
+    div#header img#prettypicture {
+        display: none;
+    }
+}
